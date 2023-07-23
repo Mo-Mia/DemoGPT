@@ -34,7 +34,7 @@ def generate_response(txt):
 
 
 # Page title
-title = "🧩 DemoGPT"
+title = "🧩 De-Mo GPT"
 
 st.set_page_config(page_title=title)
 st.title(title)
@@ -46,10 +46,10 @@ openai_api_key = st.sidebar.text_input(
     value=os.getenv("OPENAI_API_KEY", ""),
     type="password",
 )
-demo_title = st.text_input("Enter your demo title", placeholder="Type your demo title")
+demo_title = st.text_input("Enter your de-Mo title", placeholder="Type your de-Mo title")
 empty_idea = st.empty()
 demo_idea = empty_idea.text_area(
-    "Enter your LLM-based demo idea", placeholder="Type your demo idea here", height=100
+    "Enter your LLM-based de-Mo idea", placeholder="Type your de-Mo idea here", height=100
 )
 
 st.write("Examples")

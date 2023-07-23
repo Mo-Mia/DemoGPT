@@ -9,7 +9,7 @@ from langchain.prompts.chat import (
 
 
 class Chains:
-    llm = ChatOpenAI(model="gpt-3.5-turbo-16k", temperature=0)
+    llm = ChatOpenAI(model="gpt-4", temperature=0)
 
     @classmethod
     def setLlm(cls, model, openai_api_key, temperature=0):

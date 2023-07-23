@@ -23,7 +23,7 @@ load_dotenv()
 class LangChainExpert:
     def __init__(
         self,
-        model_name="gpt-3.5-turbo-16k",
+        model_name="gpt-4",
         persist_directory="langchain_db_python",
         device="cuda",
         distance_metric="cos",

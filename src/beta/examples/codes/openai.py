@@ -33,7 +33,7 @@ class Person(BaseModel):
 
 
 # If we pass in a model explicitly, we need to make sure it supports the OpenAI function-calling API.
-llm = ChatOpenAI(model="gpt-3.5-turbo-0613", temperature=0)
+llm = ChatOpenAI(model="gpt-4", temperature=0)
 
 prompt_msgs = [
     SystemMessage(

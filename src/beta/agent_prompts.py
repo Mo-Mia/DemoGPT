@@ -114,5 +114,5 @@ Langchain based Logic Code:
 Streamlit Application Title: {title}
 Add st.title({title}) to the app
 ---------
-Full Stremlit Code based on the langchain logic code:
+Full Streamlit Code based on the langchain logic code:
 """
